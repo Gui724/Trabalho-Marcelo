@@ -1,0 +1,18 @@
+﻿<Window x:Class="YeahGames.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:YeahGames"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="YeahGames!" Height="374" Width="360">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left"  Margin="117,10,0,0" TextWrapping="Wrap" Text="YeahGames!" VerticalAlignment="Top" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="83,72,0,0" TextWrapping="Wrap" Text="Escolha a opção desejada:" VerticalAlignment="Top" FontSize="16"/>
+        <Button Content="Cadastrar Jogo" Click="Button_Click" HorizontalAlignment="Left" Margin="117,147,0,0" VerticalAlignment="Top" Width="118" Height="27"/>
+        <Button Content="Listar Jogos" Click="Button_Click_1" HorizontalAlignment="Left" Margin="117,203,0,0" VerticalAlignment="Top" Width="118" Height="27"/>
+        <Button Content="Importar/Exportar" Click="Button_Click_2" HorizontalAlignment="Left" Margin="117,255,0,0" VerticalAlignment="Top" Width="118" Height="27"/>
+
+    </Grid>
+</Window>
